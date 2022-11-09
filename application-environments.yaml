@@ -34,7 +34,7 @@ spec:
   source:
     repoURL: https://github.com/lijcam/tailspin-argocd-cd
     targetRevision: restructure
-    path: ./docs/Openshift/app
+    path: ./docs/OpenShift/app
   destination:
     namespace: default
     server: https://kubernetes.default.svc
